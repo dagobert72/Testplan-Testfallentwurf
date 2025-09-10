@@ -1,0 +1,10 @@
+﻿Testfall-ID,Beschreibung,Erwartetes Ergebnis,Testentwurfs-Technik,Automatisierbar
+TC1.1,"Artikel in den Warenkorb legen, Logout, Login",Artikel ist noch im Warenkorb,Äquivalenzklassenbildung,Ja
+TC1.2,"Mehrere Artikel hinzufügen, Browser schließen, erneut öffnen",Warenkorb enthält alle Artikel,Szenariobasiert,Ja
+TC1.3,"Artikel löschen, Logout/Login",Artikel ist auch nach Login entfernt,Zustandsübergangstest,Ja
+TC2.1,Suche nach Produktname „Apfel“,Nur Produkte mit „Apfel“ erscheinen,Äquivalenzklassenbildung,Ja
+TC2.2,Filter nach Preis < 5€,Nur Produkte ≤ 5€ erscheinen,Grenzwertanalyse,Ja
+TC2.3,Kombination Filter „Bio + verfügbar“,Nur verfügbare Bio-Produkte angezeigt,Kombinationstest,Ja
+TC3.1,Eingabe gültigen Codes „SAVE10“,10% Rabatt wird abgezogen,Äquivalenzklassenbildung,Ja
+TC3.2,Eingabe ungültigen Codes „XXXX“,Fehlermeldung: „Ungültiger Code“,Negativtest,Ja
+TC3.3,Eingabe abgelaufenen Codes,Fehlermeldung: „Code abgelaufen“,Grenzwertanalyse (Datum),Ja
